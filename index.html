@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Google Lens Website</title>
+  </head>
+  <body>
+    <header>
+      <h1>Google Lens Website</h1>
+    </header>
+    
+    <main>
+      <div id="camera">
+        <video id="video" autoplay></video>
+        <canvas id="canvas"></canvas>
+        <button id="snap">Take Picture</button>
+      </div>
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/DAIVjijrYYo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+      <div id="results">
+        <h2>Results</h2>
+        <ul id="labels"></ul>
+      </div>
+    </main>
+    
+    <script src="main.js"></script>
+  </body>
+</html>
